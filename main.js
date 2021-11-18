@@ -19,7 +19,7 @@ class Zombie{
 class MegaZombie extends Zombie{
     size='Giant!'
 
-    constructor( attack, speed, perception,armorLevel){
+    constructor(hp,attack, speed, perception,armorLevel){
         super(hp, attack, speed, perception);
         this.hp= 10000;
         this.armorLevel = armorLevel
